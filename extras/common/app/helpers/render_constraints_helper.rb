@@ -12,7 +12,7 @@ module RenderConstraintsHelper
     else
       !(localized_params[:q].blank? &&
         localized_params[:f].blank? &&
-        localized_params[:f_inclusive].blank?
+        localized_params[:f_inclusive].blank? &&
         localized_params[:range].blank?
       )
     end
